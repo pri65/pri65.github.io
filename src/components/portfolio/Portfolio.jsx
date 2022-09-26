@@ -20,16 +20,16 @@ const Portfolio = () => {
       link: 'https://comfy-sundae-dc85c9.netlify.app/',
       github: 'https://github.com/pri65/coschedule-clone',
     },
-    // {
-    //   id: 2,
-    //   title: 'FakeStore',
-    //   img: IMG4,
-    //   description:
-    //     'FakeStore app that provides information about available products and their details',
-    //   technologies: 'React | Redux',
-    //   link: 'https://fakestore-metrics.netlify.app/',
-    //   github: 'https://github.com/Meri-MG/Fakestore---react',
-    // },
+    {
+      id: 2,
+      title: 'e-commerce website',
+      img: IMG4,
+      description:
+        'A leading international shopping store for Geekbuying products for sale along with great deals',
+      technologies: 'HTML | CSS',
+      link: 'https://venerable-liger-0b4d97.netlify.app/',
+      github: 'https://github.com/pri65/projects/tree/master/geekbuying',
+    },
     // {
     //   id: 3,
     //   title: 'To-Do-App',
