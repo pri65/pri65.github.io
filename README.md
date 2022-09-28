@@ -5,7 +5,7 @@ To run this on localhost type npm start and when u are done coding type npm run 
 
 NOTE: if you have yarn just replace npm start and npm run build with yarn start and yarn build.
 
-<a href="https://www.buymeacoffee.com/vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+
 
 ## Demo Link: https://clever-kringle-b06cd5.netlify.app/
 Portfolio Preview:-
