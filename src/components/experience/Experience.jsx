@@ -47,6 +47,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Data Structure & Algorithm</h4>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Node JS</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>JEST</h4>
+            </article>
           </div>
         </div>
         {/* <div className="experience__backend">
@@ -83,4 +91,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;

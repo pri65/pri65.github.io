@@ -1,10 +1,10 @@
 import React from 'react';
 import IMG1 from '../../assets/management.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG2 from '../../assets/imdb.png';
+import IMG3 from '../../assets/spotify.png';
+import IMG4 from '../../assets/geekbuying.png';
+import IMG5 from '../../assets/tictac.png';
+
 
 import './portfolio.css';
 
@@ -12,7 +12,7 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Management Software',
+      title: 'Coschedule Management Software',
       img: IMG1,
       description:
         'Software management app that allows users to organize all of their marketing in one place, from any place.',
@@ -22,53 +22,44 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'e-commerce website',
+      title: 'IMDB Movie Rating App',
+      img: IMG2,
+      description:
+        'IMDB is the worlds most popular and authoritative source for movie, TV and celebrity content. Find ratings and reviews for the newest movie and TV shows.',
+      technologies: 'React | CSS',
+      link: 'https://verdant-naiad-5ac918.netlify.app/',
+      github: 'https://github.com/pri65/imdb-clone',
+    },
+    {
+      id: 3,
+      title: 'Spotify Music App',
+      img: IMG3,
+      description: 'Spotify is an audio streaming and media services provider. It is one of the largest music streaming service providers.',
+      technologies: 'JavaScript | CSS | HTML',
+      link: 'https://starlit-paprenjak-fb55a3.netlify.app/',
+      github: 'https://github.com/pri65/spotify-clone',
+    },
+    {
+      id: 4,
+      title: 'GeekBuying E-commerce Website',
       img: IMG4,
       description:
-        'A leading international shopping store for Geekbuying products for sale along with great deals',
-      technologies: 'HTML | CSS',
-      link: 'https://venerable-liger-0b4d97.netlify.app/',
-      github: 'https://github.com/pri65/projects/tree/master/geekbuying',
+        'It is an E-commerce platforms selling a wide range of consumer electronic gadgets. ',
+      technologies: 'JavaScript | CSS | HTML | Bootstrap',
+      link: 'https://adorable-cobbler-b9755b.netlify.app/index.html',
+      github: 'https://github.com/pri65/geekbuying-clone',
     },
-    // {
-    //   id: 3,
-    //   title: 'To-Do-App',
-    //   img: IMG2,
-    //   description: 'User friendly app to plan your day and manage tasks',
-    //   technologies: 'JavaScript | Webpack',
-    //   link: 'https://meri-mg.github.io/To-Do-List/dist/',
-    //   github: 'https://github.com/Meri-MG/To-Do-List',
-    // },
-    // {
-    //   id: 4,
-    //   title: 'Shelter',
-    //   img: IMG3,
-    //   description:
-    //     'Fully responsive interactive website built based on Figma design',
-    //   technologies: 'JavaScript | CSS',
-    //   link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-    //   github: 'https://github.com/Meri-MG/shelter',
-    // },
-    // {
-    //   id: 5,
-    //   title: 'World News',
-    //   img: IMG5,
-    //   description:
-    //     'Fully responsive interactive website built based on Adobe XD design',
-    //   technologies: 'JavaScript | CSS',
-    //   link: 'https://meri-mg.github.io/Unilab-world-news/',
-    //   github: 'https://github.com/Meri-MG/Unilab-world-news',
-    // },
-    // {
-    //   id: 6,
-    //   title: 'Math Resource',
-    //   img: IMG6,
-    //   description:
-    //     'Real-world group project which is still in progress and will provide educational platform for future young developers',
-    //   technologies: 'JavaScript | Scss | Python',
-    //   link: 'https://lukinoo.github.io/math-resource/',
-    //   github: 'https://github.com/lukinoo/math-resource',
-    // },
+    {
+      id: 5,
+      title: 'Tic-Tac-Toe Game',
+      img: IMG5,
+      description:
+        'Fully responsive interactive gaming website built based on React',
+      technologies: 'React | CSS',
+      link: 'https://meek-pixie-cd49e4.netlify.app/',
+      github: 'https://github.com/pri65/tic-tac-toe',
+    },
+    
   ];
 
   return (
