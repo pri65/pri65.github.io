@@ -30,7 +30,7 @@ const Intro = () => {
           </div>
           <p>I'm a web developer with a passion for building web applications with astounding designs. Pair-programming and remote work devotee. Proficient in multiple languages, frameworks, and technologies and capable of taking on new skills quickly and efficiently.
 
-Currently, I am enrolled in Masai’s program which is an online remote software school. Here we study web development in an online multicultural environment. We get experience in pair programming. My daily routine consists of building projects, studying, reading articles and documentation, solving coding challenges, and networking. ;-)</p>
+ My daily routine consists of building projects, studying, reading articles and documentation, solving coding challenges, and networking. ;-)</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
